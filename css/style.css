@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(107, 149, 170)
+}
+
+div {
+    margin: auto;
+}
+
+h1 {
+    color: rgb(228, 228, 67);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(248, 248, 248);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: left;
+}
+
+p,
+.list {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+
+.list {
+    border-style: solid;
+    text-align: left;
+    border-color: rgb(228, 228, 67);
+    margin: auto;
+}
+
+p.endnote {
+    background-color: rgb(228, 228, 67);
+}
+
+.img-size {
+    height: auto;
+    width: 350px;
+}
+
+.link {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    font-size: 25px;
+
+}
+
+.link.ref {
+    color:rgb(219, 224, 224)
+}
