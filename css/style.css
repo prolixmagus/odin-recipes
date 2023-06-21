@@ -5,11 +5,21 @@
 }
 
 body {
-    background-color: rgb(107, 149, 170)
+    background-color: rgb(107, 149, 170);
+    width: 1000px;
+    margin: auto;
 }
 
 div {
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.inner-border {
+    border-style: dotted;
+    border-color: rgb(228, 228, 67);
+    border-width: 5px;
+    width: 50%;
 }
 
 h1 {
@@ -34,12 +44,13 @@ li {
     text-align: left;
     width: 60%;
     margin: auto;
-    border-style: groove;
+    border-style: ridge;
+    border-color: white;
     padding: 1em;
 }
 
 .text.list {
-    border-style: solid;
+    border-style: ridge;
     border-color: rgb(228, 228, 67);
 }
 
@@ -49,12 +60,15 @@ li {
     width: 50%;
     margin-right: auto;
     margin-left: auto;
+    border-style: dotted;
+    border-color: rgb(107, 96, 96);
 }
 
 .img-size {
     display: block;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 20px;
     width: 300px;
     height: 350px;
 }
@@ -67,5 +81,9 @@ li {
 }
 
 .link.ref {
-    color:rgb(219, 224, 224)
+    color:rgb(219, 224, 224);
+}
+
+.center {
+    text-align: center;
 }
